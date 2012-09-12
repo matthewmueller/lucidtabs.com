@@ -1,0 +1,146 @@
+div.template {
+	float: left;
+	padding-bottom: 10px;
+}
+
+div.leftUp{
+	background-image: url("../images/template/UpLeftCorner.png");
+	height: 34px;
+	width: 11px;
+	float: left;
+}
+
+div.header {
+	float: left;
+	height:34px;
+	width: 731px;
+	background-color: #661F00;
+}
+
+span.header-title {
+	color:#FFFFFF;
+	font-size:25px;
+	font-family: "Geneva", "Lucida Grande", Arial,Helvetica,sans-serif;
+	float: left;
+	min-width:200px;
+	min-height:34px;
+	margin-top:1px;
+}
+
+input.header-input {
+	font-size: 25px;
+	color: #FFFFFF;
+	font-family: "Geneva", "Lucida Grande", Arial,Helvetica,sans-serif;
+	background: none;
+	border: none;
+	bottom:1px;
+	right: 1px;
+	position:relative;
+	outline-style:none;
+	outline-width:0px;
+	display:none;
+	width:593px;
+	margin-top:1px;
+}
+
+div.remove_button {
+	color: white;
+	float: right;
+	font: 18px "Geneva", "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+
+div.rightUp {
+	background-image: url("../images/template/UpRightCorner.png");
+	height: 34px;
+	width: 11px;
+	float: left;
+}
+
+div.content-container {
+	float:left;
+	clear: left;
+	width: 745px;
+	background-color: #9A4321;
+	border-left: 2px #661F00 solid;
+	border-right: 2px #661F00 solid;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+}
+
+div.leftDown {
+	background: url('../images/template/DownLeftCorner.png');
+	height: 14px;
+	width: 11px;
+	float: left;
+	clear: left;
+}
+
+div.footer {
+	height: 12px;
+	width: 731px;
+	background-color: #9A4321;
+	border-bottom: 2px #661F00 solid;
+	float: left;
+}
+
+div.rightDown {
+	background: url('../images/template/DownRightCorner.png');
+	height: 14px;
+	width: 11px;
+	float: left;
+}
+
+div.content-container {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	width: 749px;
+}
+
+div.content {
+	background: #9A4321 url('../images/Guitar_scratched_with_strings.png') no-repeat;
+	background-position: 0px 6px;
+	min-height: 233px;
+	width: 749px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.guitar_tool_box {
+	position:relative;
+	width: 721px;
+	height: 28px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.guitar_strut_drop_box, .guitar_strut_tool_box, .guitar_strut_limbo_box {
+	position:absolute;
+	width:28px;
+	height:28px;
+}
+
+.guitar_stretchable_drop_box, .guitar_stretchable_tool_box, .guitar_stretchable_limbo_box {
+	position:absolute;
+	width:60px;
+	height:28px;
+	left: 45px;
+}
+
+.guitar_drop_area {
+	position:relative;
+	height: 178px;
+	width: 725px;
+	margin-left:12px;
+	margin-right:12px;
+	margin-bottom: 14px;
+	margin-top: 2px;
+}
+
+.ui-draggable-dragging {
+	z-index: 100 !important;
+}

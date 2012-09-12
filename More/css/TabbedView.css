@@ -1,0 +1,60 @@
+div.container {
+	width: 929px;
+	overflow: auto;
+	margin-top: 20px;
+}
+
+.more_sidebar {
+	background: url('../images/sidebar.png');
+	width: 258px;
+	height: 434px;
+	float: left;
+	clear:both;
+	padding-top:50px;
+	padding-left: 43px;
+}
+
+.more_content {
+	background: url('../images/content.png');
+	width: 583px;
+	height: 414px;
+	float: left;
+	color: #272727;
+	/* t r d l*/
+	padding: 60 20 10 25;
+}
+
+.more_link {
+	padding-top:10px;
+	padding-left:20px;
+	height: 34px;
+	margin-bottom: 40px;
+	width:100%;
+	cursor:pointer;
+}
+
+.clicked {
+	background: url('../images/tab.png');
+}
+
+.welcome {
+	background: url('../images/welcome.png') no-repeat scroll top left;
+	width: 314px;
+	height: 22px;
+	float:left;
+}
+
+.skip {
+	background: url('../images/skip.png') no-repeat scroll top left;
+	width: 56px;
+	height: 29px;
+	float:right;
+	cursor: pointer;
+	margin-right:30px;
+}
+
+.more_create_content, .more_started_content {
+	height: 340px;
+	width: 560px;
+	overflow:hidden;
+}

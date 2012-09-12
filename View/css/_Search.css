@@ -1,0 +1,18 @@
+input.Search.input {
+	height: 32px;
+	width: 335px;
+	font-size: 26px;
+	padding-left: 4px;
+	outline-style:none;
+	font-family: "Lucida Grande", Helvetica, Arial, "MS Trebuchet", sans-serif;
+	color: #5a5a5a;
+	border:none;
+}
+
+div.Search.box {
+	float:left;
+}
+
+span.Search.label {
+	float:left;
+}

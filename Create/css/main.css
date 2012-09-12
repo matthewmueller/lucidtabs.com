@@ -1,0 +1,355 @@
+div#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 751px;
+}
+
+div#tab {
+	float: left;
+	background: url('../images/Create_Tab.png') no-repeat;
+	width: 733px;
+	height: 152px;
+	padding:5 10 20 15;
+	margin-bottom: 10px;
+	position:relative;
+}
+
+div.addButton, div.saveButton {
+	float:right;
+	margin:10px;
+}
+
+span.create {
+	float:right;
+	margin-top:85px;
+	padding-right:3px;
+}
+
+input.input_song {
+	width:349px;
+	height:25px;
+}
+
+span.label {
+	font-family: "Geneva",sans-serif;
+	font-size: 19px;
+	color: #FFFFFF;
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+div.input_song-results {
+	position:relative;
+	top:10px;
+	left:100px;
+	height:20px;
+	width:100px;
+	background-color: black;
+}
+
+div#tab_name {
+	margin-top: 12px;
+	float: left;
+	width:469px;
+}
+
+div#new_tab_name {
+	float:left;
+}
+
+input#input_new_song {
+	margin-right:11px;
+	width:163px;
+}
+input#input_new_artist {
+	width:163px;
+}
+
+div#tab_key {
+	float :left;
+	width:120px;
+	height:36px;
+	padding: 16 0 0 0;
+	margin-left:35px;
+	background: url('../images/scale_strings.png') center no-repeat;
+}
+
+input.tab_key {
+	float:left;
+	width:20px;
+	height:20px;
+	outline:none;
+	background:none;
+	text-align:center;
+	border:none;
+	font-family: "Geneva",sans-serif;
+	color: white;
+	font-size:14px;
+}
+
+div#tab_capo {
+	float : left;
+	background: url('../images/capo.png') no-repeat;
+	height:49px;
+	width:70px;
+	margin-left:25px;
+}
+
+input.capo_input {
+	padding-top:15px;
+	float:right;
+	width:30px;
+	height:49px;
+	outline:none;
+	background:none;
+	text-align:center;
+	border:none;
+	font-family: "Geneva",sans-serif;
+	color: white;
+	font-size:20px;
+}
+
+div#tab_description {
+	float:left;
+}
+
+span.description-label {
+	vertical-align:top;
+}
+
+textarea#description_text {
+	width:350px;
+	height:80px;
+	margin-left:1px;
+}
+
+/* Firefox Bug */
+html {
+	height: 100%;
+}
+
+/* Start General CSS */
+.text {
+	font-family: "Times New Roman", Arial,Helvetica,sans-serif;
+	font-size: 17px;
+	color: #706f6b;
+}
+
+div#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 751px;
+}
+
+div.leftUp{
+	background-image: url("../images/template/UpLeftCorner.png");
+	height: 34px;
+	width: 11px;
+	float: left;
+}
+
+div.header {
+	float: left;
+	height:34px;
+	width: 731px;
+	background-color: #661F00;
+}
+
+span.header-title {
+	color:#FFFFFF;
+	font-size:25px;
+	font-family: "Geneva", "Lucida Grande", Arial,Helvetica,sans-serif;
+	float: left;
+	min-width:200px;
+	min-height:34px;
+	margin-top:1px;
+}
+
+input.header-input {
+	font-size: 25px;
+	color: #FFFFFF;
+	font-family: "Geneva", "Lucida Grande", Arial,Helvetica,sans-serif;
+	background: none;
+	border: none;
+	bottom:1px;
+	right: 1px;
+	position:relative;
+	outline-style:none;
+	outline-width:0px;
+	display:none;
+	width:593px;
+	margin-top:1px;
+}
+
+div.remove_button {
+	color: white;
+	float: right;
+	font: 18px "Geneva", "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+
+div.rightUp {
+	background-image: url("../images/template/UpRightCorner.png");
+	height: 34px;
+	width: 11px;
+	float: left;
+}
+
+div.content-container {
+	float:left;
+	clear: left;
+	width: 745px;
+	background-color: #9A4321;
+	border-left: 2px #661F00 solid;
+	border-right: 2px #661F00 solid;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+}
+
+div.leftDown {
+	background: url('../images/template/DownLeftCorner.png');
+	height: 14px;
+	width: 11px;
+	float: left;
+	clear: left;
+}
+
+div.footer {
+	height: 12px;
+	width: 731px;
+	background-color: #9A4321;
+	border-bottom: 2px #661F00 solid;
+	float: left;
+}
+
+div.rightDown {
+	background: url('../images/template/DownRightCorner.png');
+	height: 14px;
+	width: 11px;
+	float: left;
+}
+
+div.template {
+	float: left;
+	padding-bottom: 10px;
+}
+
+div.content-container {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	width: 749px;
+}
+
+div.content {
+	background: #9A4321 url('../images/Guitar_scratched_with_strings.png') no-repeat;
+	background-position: 0px 6px;
+	min-height: 250px;
+	width: 749px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.guitar_tool_box {
+	float: left;
+	width: 721px;
+	height: 28px;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+div.guitar_key {
+	width: 23px;
+	height: 192px;
+	float:left;
+	padding-top: 6px;
+/* 	background-color: red;
+ */}
+
+input.key {
+	width:25px;
+	font: 14px "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+	font-weight:bold;
+	color: white;
+	background:none;
+	border:0px white solid;
+	margin-bottom: 10px;
+	margin-top: 1px;
+}
+
+div.guitar_strut_limbo_box {
+	height: 178px;
+	width: 712px;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	margin-top: 2px;
+	float: left;
+}
+
+div.guitar_footer {
+	float: left;
+	clear: left;
+	width: 709px;
+	height: 28px;
+	margin-top: 4px;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+div.guitar_drop_box {
+	position: absolute;
+	left:0px;
+	top: 0px;
+	height: 170px;
+	width: 577px;
+	margin-top:33px;
+	/*border: 1px solid #999;*/
+	margin-left:14px;
+	margin-right:14px;
+}
+
+/*********/
+/* Strut */
+/*********/
+
+input.guitar_strut_input {
+	width: 24px;
+	top: 5px;
+	height:24px;
+	left: 2px;
+	position:absolute;
+	background:none;
+	border: none;
+	color: #FFFFFF;
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+	padding-bottom:2px;
+	cursor:move;
+	outline-style:none;
+	outline-width:0px;
+}
+
+input.guitar_strut_input.textCursor {
+	cursor: text;
+}
+
+div.strut {
+	background: url('../images/doodads/strut.png') no-repeat;
+	height: 28px;
+	width: 28px;
+	left: 23px;
+	cursor:move;
+	position:absolute;
+}
+
+.ui-draggable-dragging {
+	z-index: 100;
+}
+
+/****************/
+/* Stretchables */
+/****************/
+
+

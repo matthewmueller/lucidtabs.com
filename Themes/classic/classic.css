@@ -1,0 +1,177 @@
+body {
+	margin: 0 0 0 0;
+}
+
+a, input {
+ outline: none;
+}
+
+.theme_classic_head, .theme_classic_body, .theme_classic_foot {
+	width: 100%;
+}
+
+.theme_classic_head {
+	background: #242424 url('images/layout_gradient.png') bottom center repeat-x;
+	height:63px;
+	border-bottom: 3px solid #2a2a2a;	
+}
+
+.theme_classic_header {
+	width: 963px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+.theme_classic_body {
+	border-bottom: 2px solid #2a2a2a;
+	background: url('images/content_gradient.png') bottom center repeat-x;
+	overflow: auto;
+	min-height:525px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.theme_classic_content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 963px;
+	border: 2px dotted red;
+}
+
+.theme_classic_footer {
+	width:963px;
+	height:30px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: right;
+	margin-top:5px;
+}
+
+.theme_classic_logo {
+	width:219px;
+	height:53px;
+	float: left;
+	margin-left:10px;
+	margin-top:6px;
+	background: url('images/icon.png');
+}
+
+.theme_classic_search-box {
+	height:32px;
+	width: 366px;
+	float:left;
+	margin-left:86px;
+	margin-top:15px;
+	background-color: #ffffff;
+	border: 2px solid #2a2a2a;
+}
+
+.theme_classic_search-input {
+	border:none;
+	position: relative;
+	float: left;
+	height: 32px;
+	width: 335px;
+	font-size: 18px;
+	padding-top: 9px;
+	padding-left: 4px;
+	outline-style:none;
+	font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;
+	color: #2a2a2a;
+}
+
+.theme_classic_search-button {
+	width:22px;
+	height:24px;
+	float:right;
+	margin-right:5px;
+	margin-top:4px;
+	background: url('images/magnifier.png');
+}
+
+div.theme_classic_search-button:hover{
+	cursor: pointer;
+	background-position: 0px 24px;
+}
+
+div.theme_classic_login-box {
+	float:right;
+	margin-top: 14px;
+	margin-right:5px;
+}
+
+div.theme_classic_login-btn {
+	background: url('images/login.png') top left;
+	height: 29px;
+	width:67px;
+	margin-top:7px;
+	float:left;
+	cursor: pointer;
+}
+
+
+div.theme_classic_login-btn.down {
+	background-position: 0px 29px;
+}
+
+div.theme_classic_signup-btn {
+	background: url('images/signup.png') top left;
+	height: 29px;
+	margin-top:7px;
+	width:85px;
+	float:left;
+	cursor: pointer;
+}
+
+
+div.theme_classic_signup-btn.down {
+	background-position: 0px 29px;
+}
+
+.theme_classic_separator {
+	background: url('images/separator.png') top left;
+	width: 2px;
+	height: 38px;
+	float:left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.theme_classic_name {
+	margin-right:20px;
+	color: white;
+	font: 30px "Geneva", Helvetica, sans-serif;
+	float:right;
+	font-weight: bold;
+	display: none;
+}
+
+.theme_classic_footer a {
+	font: 18px Helvetica, sans-serif;
+	color: #2a2a2a;
+	text-decoration: none;
+	font-weight: bold;
+	padding:5px;
+}
+
+.theme_classic_footer a:hover {
+	color:#0078e5;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+noscript, .theme_classic_notice {
+	position:relative;
+	color: #ff4b4b;
+	padding:5px;
+	border: 2px solid #ff4b4b;
+	background-color: #ffc4c4;
+	left:35%;
+}
+
+.theme_classic_notice a {
+	text-decoration:none;
+}

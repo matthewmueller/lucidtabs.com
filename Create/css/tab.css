@@ -1,0 +1,163 @@
+.container {
+	width: 733px;
+}
+
+div#tab {
+	float: left;
+	background: url('../images/Create_Tab.png') no-repeat;
+	width: 733px;
+	height: 152px;
+	padding:5 10 20 15;
+	margin-bottom: 10px;
+	position:relative;
+}
+
+.tab_add_button{
+	float:right;
+	margin-top:5px;
+	margin-right: 5px;
+	background: url('../images/add_button.png');
+	width: 47px;
+	height: 20px;
+	cursor:pointer;
+}
+
+.tab_add_button.down {
+	background-position: 0 20px;
+}
+
+.tab_save_button {
+	margin-top:5px;
+	margin-right: 20px;
+	float:right;
+	background: url('../images/save_button.png');
+	width: 74px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.tab_save_button.down {
+	background-position: 0 20px;
+	cursor: auto;
+}
+
+.tab_create_button {
+	float:right;
+	margin-top:85px;
+	background: url('../images/create_button.png');
+	margin-right:10px;
+	width: 83px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.tab_create_button.down {
+	background-position: 0 20px;
+	cursor:auto;
+}
+
+input.input_song {
+	width:349px;
+	height:25px;
+}
+
+span.label {
+	font-family: "Geneva",sans-serif;
+	font-size: 19px;
+	color: #FFFFFF;
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+div.input_song-results {
+	position:relative;
+	top:10px;
+	left:100px;
+	height:20px;
+	width:100px;
+	background-color: black;
+}
+
+div#tab_name {
+	margin-top: 12px;
+	float: left;
+	width:469px;
+}
+
+.tab_new_container {
+	float:left;
+}
+
+.tab_new_song {
+	margin-right:11px;
+	width:163px;
+}
+.tab_new_artist {
+	width:163px;
+}
+
+div#tab_key {
+	float :left;
+	width:120px;
+	height:36px;
+	padding: 16 0 0 0;
+	margin-left:35px;
+	background: url('../images/scale_strings.png') center no-repeat;
+}
+
+input.tab_key {
+	float:left;
+	width:20px;
+	height:20px;
+	outline:none;
+	background:none;
+	text-align:center;
+	border:none;
+	font-family: "Geneva",sans-serif;
+	color: white;
+	font-size:14px;
+}
+
+div#tab_capo {
+	float : left;
+	background: url('../images/capo.png') no-repeat;
+	height:49px;
+	width:70px;
+	margin-left:25px;
+}
+
+input.capo_input {
+	padding-top:15px;
+	float:right;
+	width:30px;
+	height:49px;
+	outline:none;
+	background:none;
+	text-align:center;
+	border:none;
+	font-family: "Geneva",sans-serif;
+	color: white;
+	font-size:20px;
+}
+
+div.tab_description {
+	float:left;
+}
+
+span.description-label {
+	vertical-align:top;
+}
+
+.tab_description_text {
+	width:349px;
+	height:80px;
+	margin-left:1px;
+}
+
+span.Search.label {
+	float:left;
+}
+
+.tab_error {
+	border: solid 2px #ff4b4b !important;
+}

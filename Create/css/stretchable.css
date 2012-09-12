@@ -1,0 +1,33 @@
+div.stretchable {
+	float:left;
+	height: 24px;
+	background: url('../images/doodads/gradient.png') repeat-x;
+	border: 2px solid #cb6103; 
+	width: 55px;
+	z-index:10;
+	cursor: move;
+}
+
+input.stretchable_input {
+	width: 100%;
+	margin-top:3px;
+	padding-left: 4px;
+	padding-right:4px;
+	text-align: center;
+	height:21px;
+	background:none;
+	border: none;
+	color: #FFFFFF;
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	cursor:move;
+	outline-style:none;
+}
+
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index:
+99999; display: block;}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0px;
+height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0px;
+height: 100%; }

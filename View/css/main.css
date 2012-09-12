@@ -1,0 +1,289 @@
+.container {
+	width:753px;
+}
+
+div.head {
+	width: 753px;
+	min-height:37px;
+}
+
+div#menu {
+	min-width:1px;
+	min-height:1px;
+}
+
+div.info {
+	float:left;
+	height:70px;
+	min-width:320px;
+}
+
+img.thumbnail {
+	float:left;
+}
+
+div#tab-title {
+	float:left;
+	margin-top:1px;
+	margin-left: 3px;
+	vertical-align:text-bottom;
+	font: 34px helvetica, "Lucida Grande", "Lucida Sans Unicode", verdana, arial, sans-serif;
+	font-weight: bold;
+	color:#454545;
+}
+
+div.alternatives-container {
+	float:right;
+}
+
+span.label {
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+
+span#alternatives-label {
+	float:left;
+	margin-bottom:3px;
+}
+
+div.alternatives {
+	clear:left;
+	float:left;
+	width:75px;
+}
+
+div.alternatives a {
+	text-decoration: none;
+	color:white;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+
+div.alternative {
+	float:left;
+	margin-right: 4px;
+	background: url('../images/alternate2.png') no-repeat;
+	width:14px;
+	height:18px;
+	padding-top:3px;
+	padding-left:7px;
+	cursor: pointer;
+}
+
+div.scales-container {
+	float:right;
+	margin-right:20px;
+	margin-top:1px;
+}
+
+span#scales-label {
+	float:left;
+	margin-bottom:3px;
+}
+
+div.scales {
+	clear:left;
+	float:left;
+	font: 16px "Lucida Grande", "Lucida Sans Unicode", verdana, arial, sans-serif;
+	font-weight: bold;
+	color:#353535;
+	
+}
+
+div.capo-container {
+	float:right;
+	width:60px;
+	margin-right:10px;
+}
+
+div#capo-image {
+	margin-top:1px;
+	background: url('../images/capo_small.png') no-repeat scroll top left;
+	width: 27px;
+	height: 34px;
+	float:left;
+	clear:left;
+}
+
+div.capo {
+	margin-top:7px;
+	margin-left:6px;
+	float:left;
+	font: 20px "Lucida Grande", "Lucida Sans Unicode", verdana, arial, sans-serif;
+	font-weight: bold;
+	color:#353535;
+	
+}
+
+div#rating-container {
+	margin-right:30px;
+	margin-top:6px;
+	width:122px;
+	height:41px;
+	float:right;
+	background: url('../images/stars_empty.png') no-repeat;
+}
+
+div.rating {
+	width:122px;
+	height:34px;
+}
+
+div#current_rating {
+	background: url('../images/stars_rated.png') no-repeat;
+}
+
+div#my_rating {
+	background: url('../images/stars.png') no-repeat;
+	display:none;
+}
+
+span#num_ratings {
+	position:relative;
+	left:63px;
+	bottom:10px;
+	font-size:65%;
+	font-weight:bold;
+}
+
+div.menubar {
+	float:left;
+	clear:both;
+	width:250px;
+	height:80px;
+	margin-top:20px;
+	background: url('../images/menubar.png') no-repeat left;
+	
+}
+
+div.tab {
+	margin-top:10px;
+	min-width:749px;
+	overflow:auto;
+	margin-bottom:10px;
+}
+
+div.template {
+	float: left;
+	padding-bottom: 15px;
+}
+
+div.leftUp{
+	background-image: url("../images/UpLeftCorner.png");
+	height: 34px;
+	width: 11px;
+	float: left;
+}
+
+div.header {
+	float: left;
+	height:34px;
+	width: 731px;
+	background-color: #661F00;
+}
+
+span.header-title {
+	color:#FFFFFF;
+	font-size:25px;
+	font-family: "Geneva", Helvetica,"Lucida Grande", Arial,sans-serif;
+	float: left;
+	min-width:200px;
+	min-height:34px;
+	margin-top:1px;
+}
+
+div.rightUp {
+	background-image: url("../images/UpRightCorner.png");
+	height: 34px;
+	width: 11px;
+	float: left;
+}
+
+div.content-container {
+	float:left;
+	clear: left;
+	background-color: #9A4321;
+	border-left: 2px #661F00 solid;
+	border-right: 2px #661F00 solid;
+	width: 749px;
+}
+
+div.content {
+	background: #9A4321 url('../images/Guitar_scratched_with_strings.png') no-repeat;
+	background-position: 0px 6px;
+	min-height: 231px;
+	width: 749px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.leftDown {
+	background: url('../images/DownLeftCorner.png');
+	height: 14px;
+	width: 11px;
+	float: left;
+	clear: left;
+}
+
+div.footer {
+	height: 12px;
+	width: 731px;
+	background-color: #9A4321;
+	border-bottom: 2px #661F00 solid;
+	float: left;
+}
+
+div.rightDown {
+	background: url('../images/DownRightCorner.png');
+	height: 14px;
+	width: 11px;
+	float: left;
+}
+
+/* Doodads */
+div.strut {
+	background: url('../images/strut.png') no-repeat;
+	height: 28px;
+	width: 28px;
+	left: 23px;
+	position:absolute;
+	color:#FFFFFF;
+	font-size:14px;
+	font-family: "Lucida Grande", Arial,sans-serif;
+	text-align: center;
+	padding-top:6px;
+}
+
+/* Stretchables */
+div.stretchable_container {
+	width:60px;
+	height:20px;
+	left: 68px;
+	position: absolute;
+}
+
+div.stretchable_left {
+	background: url('../images/left.png');
+	width: 14px;
+	height: 28px;
+	float:left;
+}
+
+div.stretchable_right {
+	background: url('../images/right.png');
+	width: 17px;
+	height: 28px;
+	float:right;
+}
+
+div.stretchable {
+	float:left;
+	position: absolute;
+	height: 20px;
+	background: url('../images/gradient.png') repeat-x;
+	border: 2px solid #cb6103; 
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #FFFFFF;
+	text-align:center;
+	padding-top:4px;
+
+}

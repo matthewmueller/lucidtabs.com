@@ -1,0 +1,145 @@
+.container {
+	width:963px;
+}
+
+div#intro {
+	float:left;
+	margin-left:36px;
+}
+
+div#left {
+	float:left;
+	padding-left:20px;
+	padding-top:40px;
+}
+
+div#right {
+	padding-top:60px;
+	float:right;
+}
+
+.hide {
+	display : none;
+}
+
+.show {
+	display : inline;
+}
+
+.main_label {
+	float:right;
+}
+
+.main_box {
+	float: left;
+	margin-top:75px;
+	margin-left:61px;
+}
+
+div.main_search_big_button{
+	background: url('../images/search_button.png') top left;
+	width: 206px;
+	height: 325px;
+	float: left;
+	margin-left: 17px;
+}
+
+div.main_search_big_button.hover{
+	background-position: 0px 325px;
+	cursor:pointer;
+}
+
+div.main_help_big_button{
+	background: url('../images/help_button.png') top left;
+	width: 206px;
+	height: 325px;
+	float: left;
+	margin-left: 100px;
+}
+div.main_create_big_button.hover{
+	background-position: 0px 325px;
+	cursor:pointer;
+}
+
+div.main_create_big_button{
+	background: url('../images/create_button.png') top left;
+	width: 206px;
+	height: 325px;
+	float: left;
+	margin-left: 100px;
+}
+div.main_help_big_button.hover{
+	background-position: 0px 325px;
+	cursor:pointer;
+}
+
+.main_learn_more {
+	float:right;
+	position:relative;
+	top:88px;
+	margin-right:48px;
+}
+
+input.main_login_button {
+	background: url('../images/login.png');
+	width: 80px;
+	height: 32px;
+	border-style:none;
+	border-width:0;
+	float:right;
+	cursor: pointer;
+}
+
+input.main_signup_button {
+	background: url('../images/signup.png') top right;
+	width: 103px;
+	height: 33px;	
+	border-style:none;
+	border-width:0;
+	float:right;
+	cursor: pointer;
+}
+
+div.main_remove_button {
+	display:none;
+	position:absolute;
+	right:5px;
+	top:90px;
+	background: url('../images/removeButton.png');
+	height:29px;
+	width:29px;
+}
+
+div.main_remove_button:hover {
+	cursor:pointer;
+	background-position: 0px 29px;
+}
+
+.signup_name_check,.signup_email_check,.signup_pass_check {
+	display:none;
+	font-family: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #bc4242;
+	text-align:right;
+}
+
+#login {
+	margin-top:25px;
+	position:relative;
+}
+
+#signup {
+	position:relative;
+}
+
+.login_notice {
+	position:absolute;
+	top:-40px;
+	height: 20px;
+	font-family: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align:center;
+	width: 347px;
+	color: #ff4b4b;
+	padding:3px;
+	border: 2px solid #ff4b4b;
+	background-color: #ffc4c4;
+}

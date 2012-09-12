@@ -1,0 +1,18 @@
+.Theme_Search {
+	width: 339px;
+	float:left;
+}
+.Theme_Search input {
+	height: 32px;
+	width: 335px;
+	font-size: 26px;
+	padding-left: 4px;
+	outline-style:none;
+	font-family: "Lucida Grande", Helvetica, Arial, "MS Trebuchet", sans-serif;
+	color: #5a5a5a;
+	border:none;
+}
+
+.Theme_Search div.Search.box {
+	float:left;
+}

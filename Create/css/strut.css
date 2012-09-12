@@ -1,0 +1,16 @@
+.strut {
+	width: 28px;
+	height:28px;
+	position:absolute;
+	background:none;
+	border: none;
+	color: #FFFFFF;
+	padding-top:6px;
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+	cursor:move;
+	outline-style:none;
+	vertical-align: middle;
+	background: url('../images/doodads/strut.png') no-repeat;
+	z-index:10;
+}

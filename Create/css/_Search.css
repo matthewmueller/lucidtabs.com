@@ -1,0 +1,20 @@
+.Master_Search {
+	width: 353px;
+	float:left;
+}
+
+.Master_Search input.Search.input {
+	height: 32px;
+	width: 348px;
+	font-size: 26px;
+	padding-left: 4px;
+	outline-style:none;
+	font-family: "Lucida Grande", Helvetica, Arial, "MS Trebuchet", sans-serif;
+	color: #5a5a5a;
+	border:none;
+	margin-left:5px;
+}
+
+.Master_Search div.Search.box {
+	float:left;
+}
